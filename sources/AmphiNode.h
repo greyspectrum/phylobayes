@@ -93,7 +93,7 @@ class AmphiNode 	:	public Node	{
 		}
 	};
 
-/*
+
 	void computeBranchLength()	{
 
 		if (! isRoot())	{
@@ -104,7 +104,7 @@ class AmphiNode 	:	public Node	{
 			((AmphiNode*) right)->computeBranchLength();
 		}
 	}
-*/
+
 
 	AmphiNode* deepest()	{
 
